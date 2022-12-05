@@ -1,0 +1,21 @@
+{
+  "name": "socket_server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
